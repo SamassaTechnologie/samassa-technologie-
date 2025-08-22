@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Samassa Technologie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Barre de navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="assets/logo.png" alt="Logo Samassa Technologie"></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="formations.html">Formations</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section principale -->
+  <main class="contact-page">
+    <section class="hero">
+      <h1>Contactez-nous</h1>
+      <p>Nous sommes disponibles pour répondre à toutes vos questions et besoins.</p>
+    </section>
+
+    <section class="contact-container">
+      <!-- Formulaire -->
+      <div class="contact-form">
+        <h2>Envoyer un message</h2>
+        <form action="mailto:samassatechnologie10@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Adresse e-mail</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+
+      <!-- Informations -->
+      <div class="contact-info">
+        <h2>Nos coordonnées</h2>
+        <p><strong>📍 Adresse :</strong> Bamako, Mali</p>
+        <p><strong>📞 Téléphone :</strong> +223 77 29 19 31</p>
+        <p><strong>📧 Email :</strong> samassatechnologie10@gmail.com</p>
+        <p><strong>🕒 Horaires :</strong> Lun - Sam, 7h00 - 19h00</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; 2025 Samassa Technologie - Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
